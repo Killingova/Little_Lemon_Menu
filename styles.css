@@ -1,0 +1,89 @@
+/* styles.css */
+
+/* Allgemeine Stile */
+* {
+    font-family: Monaco, sans-serif;
+}
+
+.menu, .ll {
+    text-align: center;
+    color: #FA9F42;
+}
+
+.ll {
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #495E57;
+    padding-bottom: 10px;
+}
+
+.menu {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #E0E0E2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Flexbox für Menü-Abschnitte */
+.menu-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section {
+    flex: 1;
+    padding: 10px;
+    border-top: 2px solid #495E57;
+}
+
+.label {
+    font-weight: bold;
+    display: inline-block;
+    width: 70%;
+}
+
+.description {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.item-name {
+    margin: 25px 0;
+    font-size: 12px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+}
+
+/* Preise */
+b {
+    float: right;
+    margin-top: -15px;
+    color: darkcyan;
+    font-weight: bold;
+}
+
+/* Spezielle Farbanpassung für Preise */
+.label + .low {
+    color: brown;
+}
+
+/* Stile für h3 */
+div > h3 {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+    color: #495E57;
+}
+
+/* Allgemeiner Geschwister-Selektor für divs nach anderen divs */
+div ~ div {
+    color: rgb(90, 90, 90);
+}
